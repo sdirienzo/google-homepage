@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -21,7 +22,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
 }
 
 input:focus {
@@ -33,7 +33,6 @@ input:focus {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    box-sizing: border-box;
     padding: 6px;
 }
 
@@ -42,8 +41,8 @@ input:focus {
 }
 
 .search {
-    box-sizing: border-box;
     padding: 20px;
+    box-sizing: border-box;
     width: 100%;
     max-height: 160px;
 }
@@ -68,6 +67,18 @@ input:focus {
     width: auto;
     max-width: 584px;
     padding-top: 18px;
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0 20px;
 }
 
 #about-link {
@@ -121,7 +132,6 @@ input:focus {
     flex: 1;
     background: none;
     border: none;
-    /* padding: 5px 8px 0 16px; */
     height: 34px;
     width: 100%;
 }
@@ -160,4 +170,62 @@ input:focus {
     text-align: center;
     cursor: pointer;
     margin: 11px 4px;
+}
+
+#footer-left {
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+#footer-mid {
+    order: 2;
+}
+
+#footer-right {
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
+
+#advertising-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#business-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#how-search-works-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#sustainability-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#privacy-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#terms-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
+}
+
+#settings-link {
+    display: inline-block;
+    padding: 15px;
+    color: #70757a;
 }
