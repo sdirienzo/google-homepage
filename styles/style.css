@@ -60,6 +60,16 @@ input:focus {
     max-width: 584px;
 }
 
+.search-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 18px;
+}
+
 #about-link {
     margin-left: 15px;
     margin-right: 5px;
@@ -120,4 +130,34 @@ input:focus {
     margin-left: 14px;
     font-size: 20px;
     color: #9aa0a6;
+}
+
+#search-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin: 11px 4px;
+}
+
+#lucky-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin: 11px 4px;
 }
